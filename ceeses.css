@@ -1,0 +1,114 @@
+body{
+    background: linear-gradient(to bottom, rgba(255, 255, 0, 0.575), rgba(255, 166, 0, 0.712));
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family:Georgia;
+}
+
+main {
+    font-family:verdana;
+}
+
+button{
+    padding: 12px 30px;
+    font-size: 18px;
+    transition: 0.3s;
+    
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    text-align: center;
+    font-size: 15px;
+}
+
+.awal {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.infoberanda{
+    text-align: center;
+}
+
+.infoberanda hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+    width: 90%;
+    margin: auto;
+}
+
+.bestseller {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+footer {
+    text-align: center;
+    line-height: 0.7;
+}
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+    width: 25%;
+}
+.menu-risol{
+    display: grid;
+    grid-template-columns: repeat(2, 380px);
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.cardmenu {
+    border: 1.5px solid black;
+    border-radius: 10px;
+    height: 400px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.137);
+}
+
+.cardmenu:hover {
+    transform: scale(1.05);
+}
+
+.cardmenu img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
